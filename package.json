@@ -2,6 +2,7 @@
   "name": "use-random-range",
   "version": "0.1.0",
   "private": false,
+  "homepage": "https://x7ci.github.io/use-random-range",
   "dependencies": {
     "@stitches/react": "^1.2.8",
     "@testing-library/jest-dom": "^5.16.5",
