@@ -39,7 +39,7 @@ function App() {
       <SectionTitle>example</SectionTitle>
       <ExampleContainer>
         <Title>Example 1 - fixed range (28 - 37)</Title>
-        <code>{'const example1 = useRandomRange({ minValue: 28, maxValue: 37, updateInterval: 1000, digits: 4, multiplyAdd: 4 });'}</code>
+        <code>{'const example1 = useRandomRange({ minValue: 28, maxValue: 37, updateInterval: 1000, digits: 2, multiplyAdd: 4 });'}</code>
         <ProgressBarWrapper>
           <ProgressBarText>
             {example1}%
@@ -59,7 +59,7 @@ function App() {
       </ExampleContainer>
       <ExampleContainer>
         <Title>Example 3 - higher update interval</Title>
-        <code>{'const example3 = useRandomRange({ minValue: 10, maxValue: 90, updateInterval: 1000, digits: 2, multiplyAdd: 10 });'}</code>
+        <code>{'const example3 = useRandomRange({ minValue: 5, maxValue: 90, updateInterval: 500, digits: 4, multiplyAdd: 10 });'}</code>
         <ProgressBarWrapper>
           <ProgressBarText>
             {example3}%
@@ -69,7 +69,15 @@ function App() {
       </ExampleContainer>
       <SectionTitle>usage</SectionTitle>
       <Box>
-        Copy <code>useRandomRange.ts</code> to your React project - it has no dependenies other than TypeScript.
+        Copy
+        {' '}
+        <a href='https://github.com/x7ci/use-random-range/blob/main/src/useRandomRange.ts'>
+          <code>
+            useRandomRange.ts
+          </code>
+        </a>
+        {' '}
+        to your React project - the custom hook is written in TypeScript and has no dependencies.
       </Box>
     </Wrapper>
   );
@@ -100,7 +108,7 @@ const Wrapper = styled('div', {
 const ExampleContainer = styled('div', {
   display: 'flex',
   flexDirection: 'column',
-  background: 'Beige',
+  background: 'lavender',
   maxWidth: '1000px',
   padding: 20,
   gap: 8,
