@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/use-random-range/static/js/main.1390a04c.js",
+    "main.js": "/use-random-range/static/js/main.008e7cf3.js",
     "index.html": "/use-random-range/index.html",
-    "main.1390a04c.js.map": "/use-random-range/static/js/main.1390a04c.js.map"
+    "main.008e7cf3.js.map": "/use-random-range/static/js/main.008e7cf3.js.map"
   },
   "entrypoints": [
-    "static/js/main.1390a04c.js"
+    "static/js/main.008e7cf3.js"
   ]
 }
